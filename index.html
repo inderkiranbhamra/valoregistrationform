@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm" action="https://valoregistration.vercel.app/submit" method="post">
+            <label for="team_name">Team Name:</label>
+            <input type="text" id="team_name" name="team_name" required>
+            
+            <label for="college_name">College Name:</label>
+            <input type="text" id="college_name" name="college_name" required>
+            
+            <label for="leader_name">Leader Name:</label>
+            <input type="text" id="leader_name" name="leader_name" required>
+            
+            <label for="leader_ign">Leader IGN:</label>
+            <input type="text" id="leader_ign" name="leader_ign" required>
+            
+            <label for="leader_discord_tag">Leader Discord Tag:</label>
+            <input type="text" id="leader_discord_tag" name="leader_discord_tag" required>
+            
+            <label for="leader_rank">Leader Rank:</label>
+            <input type="text" id="leader_rank" name="leader_rank" required>
+            
+            <label for="leader_contact">Leader Contact:</label>
+            <input type="text" id="leader_contact" name="leader_contact" required>
+            
+            <label for="leader_email">Leader Email:</label>
+            <input type="email" id="leader_email" name="leader_email" required>
+            
+            <!-- Player 2 Details -->
+            <label for="p2_name">Player 2 Name:</label>
+            <input type="text" id="p2_name" name="p2_name">
+            
+            <label for="p2_ign">Player 2 IGN:</label>
+            <input type="text" id="p2_ign" name="p2_ign">
+            
+            <label for="p2_discord_tag">Player 2 Discord Tag:</label>
+            <input type="text" id="p2_discord_tag" name="p2_discord_tag">
+            
+            <label for="p2_rank">Player 2 Rank:</label>
+            <input type="text" id="p2_rank" name="p2_rank">
+            
+            <label for="p2_contact">Player 2 Contact:</label>
+            <input type="text" id="p2_contact" name="p2_contact">
+            
+            <label for="p2_email">Player 2 Email:</label>
+            <input type="email" id="p2_email" name="p2_email">
+            
+            <!-- Player 3 Details -->
+            <label for="p3_name">Player 3 Name:</label>
+            <input type="text" id="p3_name" name="p3_name">
+            
+            <label for="p3_ign">Player 3 IGN:</label>
+            <input type="text" id="p3_ign" name="p3_ign">
+            
+            <label for="p3_discord_tag">Player 3 Discord Tag:</label>
+            <input type="text" id="p3_discord_tag" name="p3_discord_tag">
+            
+            <label for="p3_rank">Player 3 Rank:</label>
+            <input type="text" id="p3_rank" name="p3_rank">
+            
+            <label for="p3_contact">Player 3 Contact:</label>
+            <input type="text" id="p3_contact" name="p3_contact">
+            
+            <label for="p3_email">Player 3 Email:</label>
+            <input type="email" id="p3_email" name="p3_email">
+            
+            <!-- Player 4 Details -->
+            <label for="p4_name">Player 4 Name:</label>
+            <input type="text" id="p4_name" name="p4_name">
+            
+            <label for="p4_ign">Player 4 IGN:</label>
+            <input type="text" id="p4_ign" name="p4_ign">
+            
+            <label for="p4_discord_tag">Player 4 Discord Tag:</label>
+            <input type="text" id="p4_discord_tag" name="p4_discord_tag">
+            
+            <label for="p4_rank">Player 4 Rank:</label>
+            <input type="text" id="p4_rank" name="p4_rank">
+            
+            <label for="p4_contact">Player 4 Contact:</label>
+            <input type="text" id="p4_contact" name="p4_contact">
+            
+            <label for="p4_email">Player 4 Email:</label>
+            <input type="email" id="p4_email" name="p4_email">
+            
+            <!-- Player 5 Details -->
+            <label for="p5_name">Player 5 Name:</label>
+            <input type="text" id="p5_name" name="p5_name">
+            
+            <label for="p5_ign">Player 5 IGN:</label>
+            <input type="text" id="p5_ign" name="p5_ign">
+            
+            <label for="p5_discord_tag">Player 5 Discord Tag:</label>
+            <input type="text" id="p5_discord_tag" name="p5_discord_tag">
+            
+            <label for="p5_rank">Player 5 Rank:</label>
+            <input type="text" id="p5_rank" name="p5_rank">
+            
+            <label for="p5_contact">Player 5 Contact:</label>
+            <input type="text" id="p5_contact" name="p5_contact">
+            
+            <label for="p5_email">Player 5 Email:</label>
+            <input type="email" id="p5_email" name="p5_email">
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
